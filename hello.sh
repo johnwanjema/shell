@@ -6,7 +6,8 @@ read PERSON
 echo "Hello, $PERSON"
 
 NAME="John"
-readonly NAME
+# readonly NAME
 NAME="wanjema"
+unset NAME
 ## NAME: readonly variable
 echo $NAME
